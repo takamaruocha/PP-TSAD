@@ -37,7 +37,7 @@ The trained models are saved in folder `saved_models/`
 --saved_models_dir: Directory for saving models
 --in_len: Length of the sequence
 --step_size: Step size for creating sequences
---n_classes: Number of classes
+--n_classes: Number of ID classes
 --d_model: Embedding dimension
 --d_ff: Feed-forward layer dimension
 --n_heads: Number of attention heads
