@@ -25,11 +25,6 @@ If you want to use the PSM dataset, you need to download it from [here](https://
 ## 4. Reproducibility
 1. Download data and put them in folder `datasets/`.
 2. To set parameters in parameter.py
-3. To train and evaluate the proposed framework, run:  
-```python
-python3 pp_tsad_runner.py
-```
-The trained models are saved in folder `saved_models/`
 - Parameters in parameter.py
 ```
 data: Name of the dataset to be used
@@ -51,5 +46,10 @@ batch_size: Batch size
 learning_rate: Learning rate
 num_epochs: Number of epochs
 ```
+3. To train and evaluate the proposed framework, run:  
+```python
+python3 pp_tsad_runner.py
+```
+The trained models are saved in folder `saved_models/`
 
 ## 5. Citation
