@@ -18,7 +18,7 @@ The TODS dataset is a synthetic time series generated using the method proposed 
 We created five types of five-dimensional time series with different function types (e.g., sine and cosine functions), frequencies, and amplitudes, and assigned five corresponding IDs to each.
 
 If you want to use the ECG dataset, you need to download it from [here](https://physionet.org/content/mitdb/1.0.0/).
-If you want to use the SWaT dataset, you need to request to　[here](https://itrust.sutd.edu.sg/itrust-labs_datasets/).
+If you want to use the SWaT dataset, you need to request it [here](https://itrust.sutd.edu.sg/itrust-labs_datasets/).
 If you want to use the ECG dataset, you need to download it from [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 
 ## 4. Reproducibility
@@ -31,22 +31,24 @@ python3 pp_tsad_runner.py
 The trained models are saved in folder `saved_models/`
 - Parameter options
 ```
---data: dataset
---root_path: The root path of the data file
---checkpoints: The location to store the trained model
---in_len: The input length
---out_len: The prediction length
---step_size: The step size
---seg_len: The segment length
---data_dim: The dimensions of data
---d_model: The dimension of hidden states
---d_ff: The dimension of feedforward network
---n_heads: The number of heads
---e_layers: The number of encoder layers
---dropout: The dropout
---attn_ratio: The attention ratio in the attention block
---itr: The experiments times
+--data: Name of the dataset to be used
+--root_path: Root path for the dataset
+--saved_models_dir: Directory for saving models
+--in_len: Length of the sequence
+--step_size: Step size for creating sequences
+--n_classes: Number of classes
+--d_model: Embedding dimension
+--d_ff: Feed-forward layer dimension
+--n_heads: Number of attention heads
+--e_layers: Number of encoder layers
+--dropout: Dropout rate
+--seg_len_fa: Segment length for the fa model
+--data_dim: Dimension of the data
+--jitter_ratio: Ratio for jittering in data augmentation settings
+--temperature: Temperature parameter for contrastive learning
+--batch_size: Batch size
+--learning_rate: Learning rate
+--num_epochs: Number of epochs
 ```
 
-```
-## 4. Citation
+## 5. Citation
