@@ -51,5 +51,3 @@ num_epochs: Number of epochs
 python3 pp_tsad_runner.py
 ```
 The trained models are saved in folder `saved_models/`
-
-## 5. Citation
