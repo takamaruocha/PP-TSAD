@@ -4,12 +4,13 @@
 We develop a framework that balances the trade-off between privacy preservation and anomaly detection performance and maintains sufficient accuracy for practical purposes, even with anonymized time series.
 
 ## 2. Code Description
-- pp_tsad_runner.py: The main file. The trained modela are saved in folder `saved_models/`
-- parameter.py: You can set all parameters.
-- models: The definition folder of the proposed framework.
-- data_loader.py: The pre-processing file for datasets.
-- augmentations.py: The processing file for data augmentation.
-- datasets: The dataset folder.
+- pp_tsad_runner.py: Main file. The trained models are saved in folder `saved_models/`
+- parameter.py: Parameter setting file.
+- models: Definition folder of the anonymization function, privacy model, and anomaly detection model.
+- TimeSeriesProject: Definition folder of the classification model.
+- data_loader.py: Pre-processing file for datasets.
+- augmentations.py: Processing file for data augmentation.
+- datasets: Dataset folder.
 
 ## 3. Dataset
 We use ECG, TODS, SWaT, PSM datasets.  
@@ -42,7 +43,7 @@ The trained models are saved in folder `saved_models/`
 --n_heads: Number of attention heads
 --e_layers: Number of encoder layers
 --dropout: Dropout rate
---seg_len_fa: Segment length for the fa model
+--seg_len_fa: Segment length for the anonymization function
 --data_dim: Dimension of the data
 --jitter_ratio: Ratio for jittering in data augmentation settings
 --temperature: Temperature parameter for contrastive learning
