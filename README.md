@@ -4,7 +4,7 @@
 We develop a framework that balances the trade-off between privacy preservation and anomaly detection performance and maintains sufficient accuracy for practical purposes, even with anonymized time series.
 
 ## 2. Code Description
-- pp_tsad_runner.py: Main file. The trained models are saved in folder `saved_models/`
+- pp_tsad_runner.py: Main file. The trained models are saved in folder `saved_models/`.
 - parameter.py: Parameter setting file.
 - models: Definition folder of the anonymization function, privacy model, and anomaly detection model.
 - TimeSeriesProject: Definition folder of the classification model.
