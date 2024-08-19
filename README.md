@@ -30,26 +30,26 @@ If you want to use the PSM dataset, you need to download it from [here](https://
 python3 pp_tsad_runner.py
 ```
 The trained models are saved in folder `saved_models/`
-- Parameter options
+- Parameters in parameter.py
 ```
---data: Name of the dataset to be used
---root_path: Root path for the dataset
---saved_models_dir: Directory for saving models
---in_len: Length of the sequence
---step_size: Step size for creating sequences
---n_classes: Number of ID classes
---d_model: Embedding dimension
---d_ff: Feed-forward layer dimension
---n_heads: Number of attention heads
---e_layers: Number of encoder layers
---dropout: Dropout rate
---seg_len_fa: Segment length for the anonymization function
---data_dim: Dimension of the data
---jitter_ratio: Ratio for jittering in data augmentation settings
---temperature: Temperature parameter for contrastive learning
---batch_size: Batch size
---learning_rate: Learning rate
---num_epochs: Number of epochs
+data: Name of the dataset to be used
+root_path: Root path for the dataset
+saved_models_dir: Directory for saving models
+in_len: Length of the sequence
+step_size: Step size for creating sequences
+n_classes: Number of ID classes
+d_model: Embedding dimension
+d_ff: Feed-forward layer dimension
+n_heads: Number of attention heads
+e_layers: Number of encoder layers
+dropout: Dropout rate
+seg_len_fa: Segment length for the anonymization function
+data_dim: Dimension of the data
+jitter_ratio: Ratio for jittering in data augmentation settings
+temperature: Temperature parameter for contrastive learning
+batch_size: Batch size
+learning_rate: Learning rate
+num_epochs: Number of epochs
 ```
 
 ## 5. Citation
