@@ -19,7 +19,7 @@ We created five types of five-dimensional time series with different function ty
 
 If you want to use the ECG dataset, you need to download it from [here](https://physionet.org/content/mitdb/1.0.0/).
 If you want to use the SWaT dataset, you need to request it [here](https://itrust.sutd.edu.sg/itrust-labs_datasets/).
-If you want to use the ECG dataset, you need to download it from [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
+If you want to use the PSM dataset, you need to download it from [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 
 ## 4. Reproducibility
 1. Download data and put them in folder `datasets/`.
