@@ -20,7 +20,7 @@ n_heads = 8  # Number of attention heads
 e_layers = 3  # Number of encoder layers
 dropout = 0.1  # Dropout rate
 
-# FA model hyperparameters
+# fa model hyperparameters
 seg_len_fa = 5  # Segment length for the FA model
 factor_fa = 10  # Factor for the FA model
 d_model_fa = 256  # Embedding dimension for the FA model
