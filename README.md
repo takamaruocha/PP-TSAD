@@ -18,9 +18,9 @@ You can use `train.csv` and `test.csv` of the TODS dataset from folder `datasets
 The TODS dataset is a synthetic time series generated using the method proposed in [here](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/ec5decca5ed3d6b8079e2e7e7bacc9f2-Paper-round1.pdf).
 We created five types of five-dimensional time series with different function types (e.g., sine and cosine functions), frequencies, and amplitudes, and assigned five corresponding IDs to each.
 
-If you want to use the ECG dataset, you need to download it from [here](https://physionet.org/content/mitdb/1.0.0/).
+If you want to use the ECG dataset, you need to download it [here](https://physionet.org/content/mitdb/1.0.0/).
 If you want to use the SWaT dataset, you need to request it [here](https://itrust.sutd.edu.sg/itrust-labs_datasets/).
-If you want to use the PSM dataset, you need to download it from [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
+If you want to use the PSM dataset, you need to download it [here](https://drive.google.com/drive/folders/1RaIJQ8esoWuhyphhmMaH-VCDh-WIluRR).
 
 ## 4. Reproducibility
 1. Download data and put them in folder `datasets/`.
