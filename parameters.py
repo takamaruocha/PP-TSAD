@@ -64,10 +64,6 @@ batch_size = 32 * 4  # Batch size
 learning_rate = 1e-4  # Learning rate
 num_epochs = 10  # Number of epochs
 
-# Warm-up settings
-warmup_array = list(np.linspace(0.01, 1, 5) + 1e-9)  # Range and values for warm-up
-warmup = len(warmup_array)  # Number of warm-up steps
-
 # Loss weights and learning rates for various components
 ft_loss_weight = 1  # Weight for the feature extraction loss
 
