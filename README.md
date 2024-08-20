@@ -15,7 +15,7 @@ We develop a framework that balances the trade-off between privacy preservation 
 ## 3. Dataset
 We use ECG, TODS, SWaT, and PSM datasets.  
 You can use `train.csv` and `test.csv` of the TODS dataset from folder `datasets/TODS/`.
-The TODS dataset is a synthetic time series generated using the method proposed in [here](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/ec5decca5ed3d6b8079e2e7e7bacc9f2-Paper-round1.pdf).
+The TODS dataset is a synthetic time series generated using the method proposed [here](https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/ec5decca5ed3d6b8079e2e7e7bacc9f2-Paper-round1.pdf).
 We created five types of five-dimensional time series with different function types (e.g., sine and cosine functions), frequencies, and amplitudes, and assigned five corresponding IDs to each.
 
 If you want to use the ECG dataset, you need to download it [here](https://physionet.org/content/mitdb/1.0.0/).
