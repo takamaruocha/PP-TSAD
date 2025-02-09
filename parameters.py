@@ -33,9 +33,9 @@ patience = 5  # Patience for early stopping
 
 # GPU settings
 use_gpu = True  # Whether to use GPU
-gpu = 2  # GPU ID to use
-use_multi_gpu = True  # Whether to use multiple GPUs
-devices = '2,3,4,5'  # List of GPU device IDs to use
+gpu = 0  # GPU ID to use
+use_multi_gpu = False  # Whether to use multiple GPUs
+devices = '0,1,2,3'  # List of GPU device IDs to use
 
 # Dataset information
 data_parser = {
@@ -60,7 +60,7 @@ temperature = 0.2  # Temperature parameter for contrastive learning
 use_cosine_similarity = True  # Whether to use cosine similarity
 
 # Training settings
-batch_size = 32 * 4  # Batch size
+batch_size = 128  # Batch size
 learning_rate = 1e-4  # Learning rate
 num_epochs = 10  # Number of epochs
 
