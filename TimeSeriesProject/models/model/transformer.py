@@ -24,7 +24,7 @@ class Privacy_Classifier(nn.Module):
             out_features=d_model 
             )
    
-        self.pos_emb = PositionalEncoding( max_seq_len=max_len,batch_first=False, d_model=d_model, dropout=0.1) 
+        self.pos_emb = PositionalEncoding( max_seq_len=max_len,batch_first=True, d_model=d_model, dropout=0.1) 
         self.encoder = Encoder(d_model=d_model,
                                n_head=n_head, 
                                ffn_hidden=ffn_hidden, 
