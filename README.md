@@ -1,7 +1,7 @@
 # **PP-TSAD**
 
 ## 1. Overview
-We develop a framework that balances the trade-off between privacy preservation and anomaly detection performance and maintains sufficient accuracy for practical purposes, even with anonymized time series.
+We developed a framework that balances the trade-off between privacy preservation and anomaly-detection accuracy, ensuring sufficient performance for practical applications even with anonymized time series.
 
 ## 2. Code Description
 - pp_tsad_runner.py: Main file. The trained models are saved in folder `saved_models/`.
